@@ -1,0 +1,6 @@
+private regex = /SYMBOL/gi
+
+environment.API_URL.replace(this.regex, symbol)
+
+API_URL: "https://sandbox.iexapis.com/stable/stock/SYMBOL/quote?token=Tpk_9ef4a4e9b01d41aaab56e08a429923f8"
+
